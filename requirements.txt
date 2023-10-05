@@ -1,0 +1,4 @@
+sphinx>=7
+sphinx-design
+pydata-sphinx-theme
+myst-parser
