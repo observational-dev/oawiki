@@ -1,0 +1,30 @@
+name: Build site
+on:
+  pull_request:
+  workflow_call:
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Build site
+        working-directory: src
+        run: |
+          # Set timezone to avoid issue with nektos/act
+          # https://github.com/nektos/act/issues/1853
+          TZ=UTC make html
+
+      - name: Upload site as build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: site
+          path: src/_build/html/*
