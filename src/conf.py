@@ -44,4 +44,11 @@ suppress_warnings = [
 ]
 
 html_theme = "pydata_sphinx_theme"
+
+# by default, this has more, but we value brevity.
+html_theme_options = {
+  "footer_start": ["copyright"], 
+  "footer_end": ["sphinx-version"]
+}
+
 # html_static_path = ['_static']
