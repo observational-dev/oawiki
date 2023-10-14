@@ -49,6 +49,7 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "footer_start": ["copyright"],
     "footer_end": ["sphinx-version"],
+    "secondary_sidebar_items": ["page-toc"],
     "logo": {"text": "OAWiki"},
 }
 
