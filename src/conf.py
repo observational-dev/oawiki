@@ -46,6 +46,15 @@ suppress_warnings = [
 html_theme = "pydata_sphinx_theme"
 
 # by default, this has more, but we value brevity.
-html_theme_options = {"footer_start": ["copyright"], "footer_end": ["sphinx-version"]}
+html_theme_options = {
+    "footer_start": ["copyright"],
+    "footer_end": ["sphinx-version"],
+    "logo": {"text": "OAWiki"},
+}
 
-# html_static_path = ['_static']
+html_static_path = ["_static"]
+
+
+def setup(app):
+    # Styles applied to the entire wiki
+    app.add_css_file("css/custom.css")
