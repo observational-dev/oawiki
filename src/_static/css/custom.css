@@ -1,0 +1,15 @@
+/* Styles applied to the entire wiki */
+
+html {
+  --pst-font-size-h1: 4rem;
+  --pst-font-size-h2: 2.25rem;
+  --pst-font-size-h3: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  border-bottom: 1px solid var(--pst-color-border-muted);
+  line-height: 1.5em;
+}

@@ -1,10 +1,10 @@
-# Welcome to the Observation Astronomy Wiki!
+# Welcome to the Observational Astronomy Wiki!
 
 ```{toctree}
 :maxdepth: 2
 :hidden:
-:glob:
-*
+
+imaging/index
 ```
 
-Lorem Ipsum. We currently have one preliminary page: [Planetary Imaging](planetary_imaging) Check it out!
+Lorem Ipsum. We currently have one preliminary page: [Planetary Imaging](imaging/planetary_imaging) Check it out!
