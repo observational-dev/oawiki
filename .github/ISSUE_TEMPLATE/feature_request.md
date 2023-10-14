@@ -1,10 +1,9 @@
 ---
 name: Feature request
-about: Suggest a feature or  idea for the wiki
-title: ''
-labels: ''
-assignees: random-person-001
-
+about: Suggest a feature or idea for the wiki
+title: ""
+labels: ""
+assignees: ""
 ---
 
 **Is your feature request related to a specific page or problem? Please describe.**
