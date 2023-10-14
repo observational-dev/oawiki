@@ -1,6 +1,5 @@
 \-----------------------------<img align="right" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQUNGwc8h9VqUTHCmp-42Ph6G4YbjA6N2sCxtCTjNgkCFuw0Ms5eZMzZDZI9y97Rh2I" alt="My Image" width=300>-------------------------------
 
-
 # Planetary Imaging
 
 Planetary imaging is the process of using a [telescope](https://) to produce an image of a planet, [the moon](https://), or other high magnification targets. The process is distinct from typical [astrophotography](https://) in that, instead of taking several long exposures, many short exposures are taken and the best among them are summarily [stacked](https://) to produce an image greater than the sum of its parts. A stacked planetary image results in a sharper result. This is typically referred to as "lucky imaging".
@@ -11,7 +10,7 @@ There are several methods to produce a planetary image, ranging from cheap and e
 
 ### Drift
 
-The [drift method](https://) relies on planetary imaging software such as PIPP to find the planet in any given frame, crop the image, and stack it with the rest of the frames. 
+The [drift method](https://) relies on planetary imaging software such as PIPP to find the planet in any given frame, crop the image, and stack it with the rest of the frames.
 
 Because the software automatically centers and crops the image, no tracking is required. This is an excellent choice for users of [newtonians](https://) and most [equatorial platforms](https://).
 
@@ -23,7 +22,7 @@ This ability to move straight from stacking to processing saves time, and is typ
 
 ## Processing
 
-An astrophotographer writes stuff about pipp and registaxx and AS!3 
+An astrophotographer writes stuff about pipp and registaxx and AS!3
 
 ## Gear
 
