@@ -2,7 +2,7 @@
 Welcome to the source for the OAWiki - https://wiki.observational.space !  If you are interested in contributing an article, thank you! The next two sections are just for you :)
 
 ## Contributing - Authoring
-The wiki pages are written in markdown. You might be with it - `**bold**` and `# heading` and `[link text](url)` (for more, check out [here](https://commonmark.org/help/)). You can write markdown text anywhere; if you would like a suggestion, try https://hackmd.io 
+The wiki pages are written in markdown. You might be familiar with it - `**bold**` and `# heading` and `[link text](url)` (for more, check out [here](https://commonmark.org/help/)). You can write markdown text anywhere; if you would like a suggestion, try https://hackmd.io 
 
 Some considerations as you write:
 * acceptable content: keep it professional.
