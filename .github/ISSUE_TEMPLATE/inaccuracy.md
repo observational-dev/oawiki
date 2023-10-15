@@ -1,13 +1,20 @@
 ---
-name: Content Change
-about: Suggest a change to content on the wiki
+name: Inaccuracy Noticed!
+about: The wiki has an inaccuracy.
 title: ""
 labels: ""
 assignees: ""
 ---
 
-**Is your feature request related to a specific page?.**
-Please provide a link to the content you'd like changed.
+**Which page is this on?**
+Please provide a link to the offending page.
 
-**Describe the change you'd like.**
-A clear and concise description of what you want to be changed.
+**What does it currently say?**
+
+> [paste the problematic bit here]
+
+**Why is it wrong?**
+A clear and concise description - for technical bits, consider citing a source.
+
+**Optional - proposed fix**
+What you'd say instead.
