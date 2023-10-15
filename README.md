@@ -1,10 +1,24 @@
 # :sparkles: Welcome to the OAWiki Repository! :telescope:
+Welcome to the source for the OAWiki - https://wiki.observational.space !  If you are interested in contributing an article, thank you! The next two sections are just for you :)
 
-This is the repository for the OAWiki website.
+## Contributing - Authoring
+The wiki pages are written in markdown. You might be with it - `**bold**` and `# heading` and `[link text](url)` (for more, check out [here](https://commonmark.org/help/)). You can write markdown text anywhere; if you would like a suggestion, try https://hackmd.io 
 
-## Contributing
+Some considerations as you write:
+* acceptable content: keep it professional.
+* proper attribution: many astrophotography images take tens or even a hundred hours to create. Proper attribution and permission is very important. 
+* license notice: the wiki (and thus any content you contribute) is under CC-BY-SA-4.0 which is common for educational material (and very similar to that of Wikipedia).
 
-### Building the site
+## Contributing - Adding your Contribution
+The easiest way is to send your article or contribution in the discord, and ask a wiki maintainer to integrate it. This is recommended for first time contributors.
+
+You can also do that integration process yourself. At this GitHub, you'll open a pull request with your change, which will be approved by a maintainer and automatically made live on the site. You'll need to make an account on GitHub for this, and then (How to open pull request in browser - I think fork repo, create branch, add file, go to observational-devs version, open pull request?)
+
+
+## Building the Wiki Locally (optional)
+For the nerds, here's how!
+
+### Setup
 
 The site is built from markdown using
 [`sphinx`](https://github.com/sphinx-doc/sphinx). To build the site, you'll
