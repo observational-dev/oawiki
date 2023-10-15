@@ -13,3 +13,20 @@ h3 {
   border-bottom: 1px solid var(--pst-color-border-muted);
   line-height: 1.5em;
 }
+
+/* Make content area take up the same max width as the top navigation bar */
+.bd-main .bd-content .bd-article-container {
+  max-width: 100%; /* default is 60em */
+}
+
+/* Make the entire page area get used */
+.bd-page-width {
+  max-width: 100%; /* default is 88rem */
+}
+
+/* Make the primary sidebar only as large as it needs to be to fit its content */
+@media (min-width: 960px) {
+  .bd-sidebar-primary {
+    max-width: fit-content;
+  }
+}
