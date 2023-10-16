@@ -1,5 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 #
+# Options for this theme, pydata:
+# https://pydata-sphinx-theme.readthedocs.io/en/stable/
+#
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
@@ -49,8 +52,17 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "footer_start": ["copyright"],
     "footer_end": ["sphinx-version"],
-    "secondary_sidebar_items": ["page-toc"],
+    "secondary_sidebar_items": ["page-toc", "edit-this-page"],
     "logo": {"text": "OAWiki"},
+    "use_edit_page_button": True,
+}
+
+html_context = {
+    "github_url": "https://github.com",
+    "github_user": "observational-dev",
+    "github_repo": "oawiki",
+    "github_version": "main",
+    "doc_path": "src/",
 }
 
 html_static_path = ["_static"]
