@@ -1,0 +1,7 @@
+# Visual
+
+```{toctree}
+:hidden:
+:glob:
+*
+```

@@ -1,0 +1,7 @@
+# Other
+
+```{toctree}
+:hidden:
+:glob:
+*
+```
