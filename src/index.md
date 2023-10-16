@@ -24,11 +24,3 @@ Below, you can find some of the more important articles for each discipline of o
 [Discord](https://discord.gg/astronomy) | [About](https://)
 
 </center>
-
-```{admonition} What is a dropdown example?
-:class: dropdown admonition-question
-
-
-    It's a potentially useful feature demonstrated here!
-
-```
