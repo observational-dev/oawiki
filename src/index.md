@@ -4,16 +4,20 @@
 :maxdepth: 2
 :hidden:
 
+beginning/index
+visual/index
 imaging/index
+telescopemaking/index
+other/index
 ```
 
 Below, you can find some of the more important articles for each discipline of observing. If you can't find what you're looking for, you can use the search bar above. Clear skies!
 
 <center>
 
-|                Visual astronomy                 |                                      Astrophotography                                       |
-| :---------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| [The Night Sky](https://) - [Targets](https://) |                    [Understanding AP](https://) - [Wide Field](https://)                    |
+|                Visual astronomy                 |                                          Astrophotography                                           |
+| :---------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| [The Night Sky](https://) - [Targets](https://) |                        [Understanding AP](https://) - [Wide Field](https://)                        |
 | [Telescopes](https://) - [Literature](https://) | [Planetary](https://wiki.observational.space/imaging/planetary_imaging.html) - [Software](https://) |
 
 |                  Telescope making                  |                        For Beginners                         |
