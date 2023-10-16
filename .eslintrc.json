@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {},
+  "ignorePatterns": ["src/_build/**/*"],
+  "env": {
+    "browser": true
+  }
+}

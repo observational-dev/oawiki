@@ -30,3 +30,53 @@ h3 {
     max-width: fit-content;
   }
 }
+
+.modal-checkbox[type='checkbox']:checked ~ div.modal-background {
+  display: flex !important;
+}
+
+div.modal-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+div.modal-foreground {
+  background: var(--pst-color-background);
+  z-index: 2;
+}
+
+input.modal-checkbox {
+  display: none;
+}
+
+/* Label CSS adapted from the PST css used for <a> */
+label.modal-checkbox-label {
+  cursor: pointer;
+  word-wrap: break-word;
+  color: var(--pst-color-link);
+  text-decoration: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+  text-underline-offset: 0.1578em;
+}
+label.modal-checkbox-label:hover {
+  text-decoration-skip: none;
+  color: var(--pst-color-link-hover);
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+}
+
+/* Add a little spacing around the git history table elements */
+.git-history td,
+th {
+  padding: 0.5em;
+  border: 1px solid var(--pst-color-border-muted);
+}
