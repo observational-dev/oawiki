@@ -32,15 +32,16 @@ h3 {
 }
 
 /* Question dropdown stuff */
+/* see https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/extending.html#combining-all-three-customizations */
 div.admonition.admonition-question {
-  /*border-color: hsl(0, 100%, 50%); /* YouTube red */
+  /*border-color: hsl(0, 100%, 50%); /* custom colors etc */
 }
 div.admonition.admonition-question > .admonition-title:before {
   /*background-color: hsl(0, 99%, 18%);*/
 }
 div.admonition.admonition-question > .admonition-title:after {
   /*color: hsl(0, 100%, 50%);*/
-  content: "\f086"; /* fa-solid fa-tv */
+  content: "\f086"; /* unicode for dialog */
 }
 div.admonition.admonition-question > .admonition-title {
   /*color: white;*/
