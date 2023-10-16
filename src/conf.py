@@ -22,10 +22,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # Turn all bad references into warnings
 nitpicky = True
 
-extensions = [
-    "myst_parser",
-    "sphinx_design",
-]
+extensions = ["myst_parser", "sphinx_design", "sphinx_togglebutton"]
 
 myst_enable_extensions = [
     "amsmath",

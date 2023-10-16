@@ -11,9 +11,9 @@ Below, you can find some of the more important articles for each discipline of o
 
 <center>
 
-|                Visual astronomy                 |                                      Astrophotography                                       |
-| :---------------------------------------------: | :-----------------------------------------------------------------------------------------: |
-| [The Night Sky](https://) - [Targets](https://) |                    [Understanding AP](https://) - [Wide Field](https://)                    |
+|                Visual astronomy                 |                                          Astrophotography                                           |
+| :---------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| [The Night Sky](https://) - [Targets](https://) |                        [Understanding AP](https://) - [Wide Field](https://)                        |
 | [Telescopes](https://) - [Literature](https://) | [Planetary](https://wiki.observational.space/imaging/planetary_imaging.html) - [Software](https://) |
 
 |                  Telescope making                  |                        For Beginners                         |
@@ -24,3 +24,11 @@ Below, you can find some of the more important articles for each discipline of o
 [Discord](https://discord.gg/astronomy) | [About](https://)
 
 </center>
+
+```{admonition} What is a dropdown example?
+:class: dropdown admonition-question
+
+
+    It's a potentially useful feature demonstrated here!
+
+```

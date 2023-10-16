@@ -30,3 +30,18 @@ h3 {
     max-width: fit-content;
   }
 }
+
+/* Question dropdown stuff */
+div.admonition.admonition-question {
+  /*border-color: hsl(0, 100%, 50%); /* YouTube red */
+}
+div.admonition.admonition-question > .admonition-title:before {
+  /*background-color: hsl(0, 99%, 18%);*/
+}
+div.admonition.admonition-question > .admonition-title:after {
+  /*color: hsl(0, 100%, 50%);*/
+  content: "\f086"; /* fa-solid fa-tv */
+}
+div.admonition.admonition-question > .admonition-title {
+  /*color: white;*/
+}
