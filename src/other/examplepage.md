@@ -12,9 +12,14 @@ _Italicized text_
 
 ~~struckthrough text~~
 
-fun `inline code` format
+fun `inline code` format[^myref]
+% this line is a comment, and won't be displayed on the wiki. I just wanted to point out that the footnote definitions will always be displayed at the end of the page, but it's useful to define them near where they are used.
+[^myref]: This is an auto-numbered footnote definition
 
-Here is a link to the markdown we use: [Commonmark Help](https://commonmark.org/help/) and a cat image for you:
+A quick markdown [cheatsheet](https://commonmark.org/help/) is available, as well as a [comprehensive catalog](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html#syntax-core) for MyST's implementation which is used here.
+
+...And a cat image for you:[^catref]
+[^catref]: Locke, 2023, used with permission
 
 ![a cat yawns, Locke 2023, used with permission](https://cdn.discordapp.com/attachments/514888013533151253/1157127122570190998/PXL_20230929_012816945.PORTRAIT.jpg)
 
