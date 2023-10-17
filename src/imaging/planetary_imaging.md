@@ -1,4 +1,4 @@
-\-----------------------------<img align="right" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQUNGwc8h9VqUTHCmp-42Ph6G4YbjA6N2sCxtCTjNgkCFuw0Ms5eZMzZDZI9y97Rh2I" alt="My Image" width=300>-------------------------------
+<img align="right" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQUNGwc8h9VqUTHCmp-42Ph6G4YbjA6N2sCxtCTjNgkCFuw0Ms5eZMzZDZI9y97Rh2I" alt="My Image" width=300>
 
 # Planetary Imaging
 
