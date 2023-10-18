@@ -26,7 +26,7 @@ You can also do that integration process yourself. At this GitHub, you'll open a
 - make your changes (tip: just above the top left of the editor area, there's a edit / preview switch. Remember this isn't a perfect preview but it's sometimes helpful)
 - near the top right is a big green `Commit changes...` to click when you're satisfied
 - The `Commit message` is important; extended description etc is not. The commit message is what will be shown when folks look through a page's history, so replace the default and just breifly describe what was changed, and put your name in parentheses afterward. You don't need to say the file / page name here.
-  - example: "wrote base article (yourname)" or "added section for jabberwalk tips (yourname)" or "fixed inaccuracy about Vorpal Blades (yourname)"
+  - example: "wrote base article" or "added section for jabberwalk tips" or "fixed inaccuracy about Vorpal Blades"
 - Click the big green buttons it guides you through - fork the repo, create a branch
 - now near the upper left corner of the page, click the `Pull requests` tab, and hopefully there's a yellow box saying there is recent activity and suggesting you `Compare & pull request` - do that, then click the next big green button `Create pull request`
 - Your part is now done! Wiki maintainers will take a gander and approve it, and then it becomes live on the website! Thank you!
