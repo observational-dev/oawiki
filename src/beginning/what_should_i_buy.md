@@ -1,10 +1,4 @@
-# Visual
-
-```{toctree}
-:hidden:
-:glob:
-*
-```
+# What should I buy?
 
 It looks like this page hasn't been written yet. Would you be willing to [help](https://github.com/observational-dev/oawiki/blob/main/README.md)?
 

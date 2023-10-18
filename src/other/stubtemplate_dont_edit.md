@@ -1,10 +1,6 @@
-# Visual
+# Stub Template
 
-```{toctree}
-:hidden:
-:glob:
-*
-```
+## Please don't actually edit; it's a template for all the others
 
 It looks like this page hasn't been written yet. Would you be willing to [help](https://github.com/observational-dev/oawiki/blob/main/README.md)?
 

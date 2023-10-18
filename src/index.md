@@ -15,16 +15,16 @@ Below, you can find some of the more important articles for each discipline of o
 
 <center>
 
-|                Visual astronomy                 |                                          Astrophotography                                           |
-| :---------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-| [The Night Sky](https://) - [Targets](https://) |                        [Understanding AP](https://) - [Wide Field](https://)                        |
-| [Telescopes](https://) - [Literature](https://) | [Planetary](https://wiki.observational.space/imaging/planetary_imaging.html) - [Software](https://) |
+|                 [Visual astronomy](visual/index)                  |                       [Astrophotography](imaging/index)                        |
+| :---------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+|   [The Night Sky](visual/night_sky) - [Targets](visual/targets)   | [Understanding AP](imaging/understanding_ap) - [Wide Field](imaging/widefield) |
+| [Telescopes](visual/telescopes) - [Literature](visual/literature) |     [Planetary](imaging/planetary_imaging) - [Software](imaging/software)      |
 
-|                  Telescope making                  |                        For Beginners                         |
-| :------------------------------------------------: | :----------------------------------------------------------: |
-| [Newtonian Design](https://) - [History](https://) | [What can you see](https://) - [What should I buy](https://) |
-| [Mirror Making](https://) - [Resources](https://)  | [How telescopes work](https://) - [Observing Well](https://) |
+|                        [Telescope making](telescopemaking/index)                        |                                 [For Beginners](beginning/index)                                  |
+| :-------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|   [Newtonian Design](telescopemaking/newtonians) - [History](telescopemaking/history)   | [What can you see](beginning/what_can_you_see) - [What should I buy](beginning/what_should_i_buy) |
+| [Mirror Making](telescopemaking/mirror_making) - [Resources](telescopemaking/resources) | [How telescopes work](beginning/how_telescopes_work) - [Observing Well](beginning/observing_well) |
 
-[Discord](https://discord.gg/astronomy) | [About](https://)
+[Discord](https://discord.gg/astronomy) | [About](other/about)
 
 </center>
