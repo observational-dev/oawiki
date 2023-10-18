@@ -4,7 +4,7 @@ Below are some of the most commonly recommended resources for designing telescop
 
 ## General Newtonian Design
 
-[Newtonian Telescope Designer by Mel Bartels](https://)
+[Newtonian Telescope Designer by Mel Bartels](https://www.bbastrodesigns.com/NewtDesigner.html)
 
 - Comprehensive Newtonian telescope building tool
 - Interlinked calculators that produce accurate and quantitative measurements
