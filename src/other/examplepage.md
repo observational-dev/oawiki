@@ -2,6 +2,8 @@
 
 Rather than being intended for wiki viewers, this page exists for wiki editors. You could be one!
 
+[See the source](https://github.com/observational-dev/oawiki/blob/main/src/other/examplepage.md?plain=1) for this page, to see how to make these fun formattings.
+
 ## Markdown Examples
 
 If you've used Discord or Reddit, these might be familiar to you.
@@ -15,7 +17,7 @@ _Italicized text_
 fun `inline code` format[^myref]
 % this line is a comment, and won't be displayed on the wiki. I just wanted to point out that the footnote definitions will always be displayed at the end of the page, but it's useful to define them near where they are used.
 
-[^myref]: This is the footnote definition for the reference above. It will be shown at the bottom of the page, and automatically numbered.
+[^myref]: This is the footnote definition for the reference above. It will be shown at the bottom of the page, and is automatically numbered.
 
 A quick markdown [cheatsheet](https://commonmark.org/help/) is available, as well as a [comprehensive catalog](https://myst-parser.readthedocs.io/en/latest/syntax/typography.html#syntax-core) for MyST's implementation which is used here.
 
