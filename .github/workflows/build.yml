@@ -28,3 +28,22 @@ jobs:
         with:
           name: site
           path: src/_build/html/*
+
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Check links
+        working-directory: src
+        run: |
+          # Set timezone to avoid issue with nektos/act
+          # https://github.com/nektos/act/issues/1853
+          TZ=UTC make linkcheck
