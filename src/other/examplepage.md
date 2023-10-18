@@ -61,6 +61,8 @@ Like this :)
 Absolutely! It's documented [here](https://sphinx-design.readthedocs.io/en/latest/dropdowns.html), with the change that we use backticks instead of colon fences.
 ```
 
+Additionally, sub- and superscripts are supported. H{sub}`2`O, and 4{sup}`th` of July
+
 ---
 
 Thank you for taking the time to contribute to this repository of knowledge!
