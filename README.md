@@ -1,10 +1,41 @@
 # :sparkles: Welcome to the OAWiki Repository! :telescope:
 
-This is the repository for the OAWiki website.
+Welcome to the source for the OAWiki - https://wiki.observational.space ! If you are interested in contributing an article, thank you! The next two sections are just for you :)
 
-## Contributing
+## Contributing - Authoring
 
-### Building the site
+The wiki pages are written in markdown. You might be familiar with it - `**bold**` and `# heading` and `[link text](url)` (for more, check out [here](https://commonmark.org/help/)). You can write markdown text anywhere; if you would like a suggestion that isn't here on GitHub, try https://hackmd.io
+
+Some considerations as you write:
+
+- acceptable content: keep it professional.
+- proper attribution: many astrophotography images take tens or even a hundred hours to create. Proper attribution and permission is very important.
+- license notice: the wiki (and thus any content you contribute) is under CC-BY-SA-4.0 which is common for educational material (and very similar to that of Wikipedia).
+
+## Contributing - Adding your Contribution
+
+### The Fast Way
+
+The easiest way is to send your article or contribution in the discord, and ask a wiki maintainer to integrate it. This is recommended for first time contributors.
+
+### The DIY Way
+
+You can also do that integration process yourself. At this GitHub, you'll open a pull request with your change, which will be approved by a maintainer and automatically made live on the site. You'll need to make an account on GitHub for this. Specifically, the process goes:
+
+- on the wiki page you wish to change, on the right sidebar, click `Edit on GitHub`
+- make your changes (tip: just above the top left of the editor area, there's a edit / preview switch. Remember this isn't a perfect preview but it's sometimes helpful)
+- near the top right is a big green `Commit changes...` to click when you're satisfied
+- The `Commit message` is important; extended description etc is not. The commit message is what will be shown when folks look through a page's history, so replace the default and just breifly describe what was changed, and put your name in parentheses afterward. You don't need to say the file / page name here.
+  - example: "wrote base article" or "added section for jabberwalk tips" or "fixed inaccuracy about Vorpal Blades"
+- Click the big green buttons it guides you through - fork the repo, create a branch
+- now near the upper left corner of the page, click the `Pull requests` tab, and hopefully there's a yellow box saying there is recent activity and suggesting you `Compare & pull request` - do that, then click the next big green button `Create pull request`
+- Your part is now done! Wiki maintainers will take a gander and approve it, and then it becomes live on the website! Thank you!
+
+## Building the Wiki Locally (optional)
+
+For the nerds, here's how!
+
+### Setup
 
 The site is built from markdown using
 [`sphinx`](https://github.com/sphinx-doc/sphinx). To build the site, you'll
