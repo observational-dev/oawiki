@@ -68,7 +68,7 @@ html_context = {
 
 html_static_path = ["_static"]
 
-notfound_urls_prefix = None
+notfound_urls_prefix = ''
 
 
 def setup(app):
