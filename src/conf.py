@@ -25,6 +25,7 @@ nitpicky = True
 extensions = [
     "myst_parser",
     "sphinx_design",
+    "notfound.extension",
 ]
 
 myst_enable_extensions = [
@@ -66,6 +67,8 @@ html_context = {
 }
 
 html_static_path = ["_static"]
+
+notfound_urls_prefix = None
 
 
 def setup(app):
