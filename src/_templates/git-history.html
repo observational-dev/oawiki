@@ -1,0 +1,10 @@
+<label for="history-checkbox" class="modal-checkbox-label">
+  <i class="fa-solid fa-clock-rotate-left"></i>
+  Show article history
+</label>
+<input id="history-checkbox" type="checkbox" class="modal-checkbox" />
+<div id="history-modal-background" class="modal-background">
+  <div id="history-modal-foreground" class="modal-foreground">
+    <div class="modal-body">{{ add_git_history() }}</div>
+  </div>
+</div>

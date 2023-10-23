@@ -1,4 +1,6 @@
+gitpython
 myst-parser
+pandas
 pre-commit
 pydata-sphinx-theme
 sphinx>=7
