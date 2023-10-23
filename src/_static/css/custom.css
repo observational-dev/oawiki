@@ -76,7 +76,7 @@ label.modal-checkbox-label:hover {
 
 /* Add a little spacing around the git history table elements */
 .git-history td,
-th {
+.git-history th {
   padding: 0.5em;
   border: 1px solid var(--pst-color-border-muted);
 }
