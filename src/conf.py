@@ -74,7 +74,7 @@ html_context = {
 
 html_static_path = ["_static"]
 
-notfound_urls_prefix = ''
+notfound_urls_prefix = ""
 
 
 def add_context_funcs(app, pagename, templatename, context, doctree):
@@ -116,9 +116,17 @@ def add_context_funcs(app, pagename, templatename, context, doctree):
     context["add_git_history"] = add_git_history
 
 
+def add_per_page_assets(app, pagename, templatename, context, doctree):
+    if pagename == "index":
+        app.add_css_file("css/splash.css")
+        # Render index.html with custom template
+        return "splash.html"
+
+
 def setup(app):
     # Styles applied to the entire wiki
     app.add_css_file("css/custom.css")
     app.add_js_file("js/custom.js")
 
     app.connect("html-page-context", add_context_funcs)
+    app.connect("html-page-context", add_per_page_assets)

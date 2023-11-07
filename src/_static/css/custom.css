@@ -80,3 +80,16 @@ label.modal-checkbox-label:hover {
   padding: 0.5em;
   border: 1px solid var(--pst-color-border-muted);
 }
+
+#rtd-footer-container {
+  display: none;
+}
+
+article.bd-article {
+  height: 100%;
+}
+article.bd-article > section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

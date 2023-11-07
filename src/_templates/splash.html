@@ -1,0 +1,46 @@
+{% extends "!pydata_sphinx_theme/layout.html" %} {% block body %}
+<div class="oacard-grid-wrapper">
+  <div class="oacard-grid">
+    <div class="oacard" id="for-beginners">
+      <div class="oacard-content">
+        <a href="{{ pathto('beginning/index') }}">
+          <img
+            src="https://www.astronomy.com/wp-content/uploads/sites/2/2023/02/gusev_dd_tracks_500.gif?resize=500%2C253"
+          />
+          <p>For Beginners</p>
+        </a>
+      </div>
+    </div>
+    <div class="oacard" id="visual-astronomy">
+      <div class="oacard-content">
+        <a href="{{ pathto('visual/index') }}">
+          <img
+            src="https://www.astronomy.com/wp-content/uploads/sites/2/2023/02/gusev_devil_2_500.jpg?resize=500%2C429"
+          />
+          <p>Visual Astronomy</p>
+        </a>
+      </div>
+    </div>
+    <div class="oacard" id="astrophotography">
+      <div class="oacard-content">
+        <a href="{{ pathto('imaging/index') }}">
+          <img
+            src="https://www.astronomy.com/wp-content/uploads/sites/2/2023/02/gusev_devil_1_anaglyph.jpg?resize=600%2C540"
+          />
+          <p>Astrophotography</p>
+        </a>
+      </div>
+    </div>
+    <div class="oacard" id="telescope-making">
+      <div class="oacard-content">
+        <a href="{{ pathto('telescopemaking/index') }}">
+          <img
+            src="https://www.astronomy.com/wp-content/uploads/sites/2/2023/02/gusev_devil_2_anaglyph.JPG?resize=600%2C524"
+          />
+          <p>Telescope Making</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{{ super() }} {% endblock %}

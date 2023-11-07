@@ -1,0 +1,76 @@
+/* Center the grid of cards in the page */
+.oacard-grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.oacard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  padding: 2rem 4rem;
+}
+
+.oacard {
+  transform: skew(-10deg);
+  transition: transform 0.5s 0.05s;
+}
+
+.oacard:hover {
+  transform: translateX(-1rem) translateY(-1rem) skew(-10deg);
+}
+
+/* Border of the highlighted card which lies beneath image */
+.oacard:before {
+  content: '';
+  left: 0;
+  top: 0;
+  opacity: 0;
+  border: 2px solid var(--pst-color-border);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transform: translateY(0) translateX(0);
+  transition:
+    transform 0.5s 0.05s,
+    opacity 0.5s 0.05s;
+}
+
+.oacard:hover:before {
+  opacity: 1;
+  transform: translateY(1.5rem) translateX(1.5rem);
+}
+
+.oacard-content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--pst-color-background);
+}
+
+.oacard .oacard-content img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.5s 0.05s;
+}
+
+.oacard:hover > .oacard-content img {
+  opacity: 0.3;
+}
+
+.oacard-content p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 2em;
+}
