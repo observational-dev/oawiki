@@ -74,7 +74,7 @@ html_context = {
 
 html_static_path = ["_static"]
 
-notfound_urls_prefix = ''
+notfound_urls_prefix = ""
 
 
 def add_context_funcs(app, pagename, templatename, context, doctree):
@@ -94,7 +94,13 @@ def add_context_funcs(app, pagename, templatename, context, doctree):
                 context["page_source_suffix"]
             )
             commit_log = defaultdict(list)
-            for commit in repo.iter_commits(paths=filename):
+            commits = list(repo.iter_commits(paths=filename))
+            if not commits:
+                raise ValueError(
+                    f"{filename} exists but has no commit history. Please commit the "
+                    "file before trying to build the site."
+                )
+            for commit in commits:
                 commit_log["Date"].append(
                     f'<a href="{repo_url}/commit/{commit.hexsha}">'
                     f"{str(commit.authored_datetime)}</a>"
