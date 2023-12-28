@@ -1,0 +1,67 @@
+article.bd-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-holder {
+  padding: 0.5em;
+  background-color: var(--pst-color-surface);
+  border-radius: 4px;
+}
+
+input {
+  border: none;
+  color: var(--pst-color-text-base);
+  background-color: var(--pst-color-surface);
+}
+
+input:focus {
+  outline: none;
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+#vis-wrapper {
+  position: relative;
+  flex-grow: 1;
+}
+
+#vis .datapoint {
+  fill: var(--pst-color-primary);
+}
+
+#vis text {
+  fill: var(--pst-color-text-base);
+}
+#vis text {
+  fill: var(--pst-color-text-base);
+}
+
+#vis .y-axis line {
+  stroke: var(--pst-color-text-base);
+}
+#vis .x-axis line {
+  stroke: var(--pst-color-text-base);
+}
+
+#vis .y-axis path {
+  stroke: var(--pst-color-text-base);
+}
+#vis .x-axis path {
+  stroke: var(--pst-color-text-base);
+}
