@@ -1,3 +1,5 @@
+# Calibration Frames
+
 ## Intro
 Here's a quick primer on how to take calibration frames. These are pretty easy to take and improve your image quite a bit.
 
