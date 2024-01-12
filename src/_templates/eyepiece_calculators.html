@@ -1,0 +1,37 @@
+{% extends "!page.html" %} {% block body %} {{ super() }}
+
+<div class="side-by-side">
+  <div class="input-area">
+    <div class="input-wrapper">
+      <label for="telescope-focal-length">Telescope focal length [mm]:</label>
+      <div class="input-holder">
+        <input
+          id="telescope-focal-length"
+          type="text"
+          pattern="[0-9]"
+          inputmode="numeric"
+          placeholder="816"
+        />
+      </div>
+    </div>
+    <div class="input-wrapper">
+      <label for="telescope-focal-ratio">Telescope focal ratio:</label>
+      <div class="input-holder">
+        <input
+          id="telescope-focal-ratio"
+          type="text"
+          pattern="[0-9]"
+          inputmode="numeric"
+          placeholder="4"
+        />
+      </div>
+    </div>
+  </div>
+  <div id="vis-wrapper">
+    <div id="vis"></div>
+  </div>
+</div>
+
+<div id="grid-wrapper" class="table-dark"></div>
+
+{% endblock %}

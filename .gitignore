@@ -116,3 +116,18 @@ pyproject.toml
 
 # mypy
 .mypy_cache/
+
+# Excel temporary files
+.~lock*
+
+# JSON files generated from buyer's guide to eyepieces
+eyepiece_buyers_guide_fixed.json
+eyepiece_buyers_guide_zoom.json
+
+# Ignore a bunch of node crap needed to run eslint :/
+.editorconfig
+.pnp.cjs
+.pnp.loader.mjs
+.yarn/
+package.json
+yarn.lock

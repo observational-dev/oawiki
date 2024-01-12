@@ -1,5 +1,6 @@
 gitpython
 myst-parser
+openpyxl
 pandas
 pre-commit
 pydata-sphinx-theme
