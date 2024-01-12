@@ -3,7 +3,7 @@ myst-parser
 openpyxl
 pandas
 pre-commit
-pydata-sphinx-theme
+pydata-sphinx-theme==0.14.4
 sphinx>=7
 sphinx-design
 sphinx-notfound-page
