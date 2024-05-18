@@ -3,7 +3,7 @@ submitted by user: @madeo__
 
 The name of this guide is slightly deceiving as sadly we do not get to bake tiles, but this will not be too far off it. This guide will be about learning the method of making a tool with the tiles already attached via the method “baking them in”. 
 
-### Step 1: Prepping Your Blank 
+## Step 1: Prepping Your Blank 
 
 Before we pour the plaster, we want to make sure our blank is nice and safe from the plaster. To do this, we will first wrap the curved surface of our blank with saran wrap to ensure no plaster gets on the surface of the blank. Next, we will want to build walls around the blank, so the plaster stays in place. Commonly a hard but flexible plastic like posterboard plastic is wrapped tightly and secured around the blank to make walls. Once you have done these steps, your blank should look something like this. 
 
