@@ -9,13 +9,13 @@ Before we pour the plaster, we want to make sure our blank is nice and safe from
 
  ![empty](https://github.com/aerori/oawiki/assets/31824839/4c370f10-2ad3-4ddb-a0c8-2099a396cc57)
 
-### Step 2: Setting Tiles 
+## Step 2: Setting Tiles 
 
 Now that our blank is prepped, it is time to set our tiles on the blank. This is simple to do as all you need to do is grab your tile sheet, cut the appropriate shape of tiles, and set them on your blank. Once you have done this, your blank will look something like this.  
 
 ![bottom up](https://github.com/aerori/oawiki/assets/31824839/dbcc8040-ccc5-445d-80ad-18e2a1460ed8)
 
-### Step 3: Pouring Plaster 
+## Step 3: Pouring Plaster 
 
 Once the tiles are on the blank, it is time to make and pour our plaster. If you ordered your plaster from a site like Firsthand Discovery, they would have included instructions for making plaster, and those are fine to follow. If not, then I would highly recommend looking up some instructions for making plaster. As for the pour, it is as simple as pouring the plaster into the mold you have made around your blank. Try to fill your mold up to the top and flatten the top by pushing small plaster hills down with a ruler or another long, flat object. Once the plaster has been poured and the top has been flattened, let your plaster set for 30-45 minutes before removing the mold. Once poured, your blank should look like this. 
 
