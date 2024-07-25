@@ -24,6 +24,6 @@ Shoot these before or after your session- make sure your camera has the same set
 
 ## Extra frames:
 ### Dark flats:
-These are nice if you have filters and it's fast to take these. It's not really useful for DSLRs but it's nice for astrocams. Same exposure length as the flats. measure dark current in the flat frame.
+These are dark frames for your flat frames using the same settings as the flats, nice if you have filters and it's fast to take these. It's not really useful for DSLRs but it's nice for astrocams. Same exposure length as the flats.\
 ![image](https://github.com/observational-dev/oawiki/assets/31824839/e21394c6-28f3-4730-ba13-dd7f69d6368f)\
 Here's Noah!
