@@ -24,7 +24,7 @@ A quick markdown [cheatsheet](https://commonmark.org/help/) is available, as wel
 ...And a cat image for you:[^catref]
 [^catref]: Locke, 2023, used with permission
 
-![a cat yawns, Locke 2023, used with permission](https://cdn.discordapp.com/attachments/514888013533151253/1157127122570190998/PXL_20230929_012816945.PORTRAIT.jpg)
+![a cat yawns, Locke 2023, used with permission](https://cdn.discordapp.com/attachments/514888013533151253/1157127122570190998/PXL_20230929_012816945.PORTRAIT.jpg?ex=66a2fc1c&is=66a1aa9c&hm=141f82a0e26e4591dd3f55e826a33cb7bb14ced4bcb63aa176c4f8c36d65b0b8&)
 
 > This is a blockquote. It's useful for separating out a specific chunk of text from the rest. Glass does not flow at room temperature as a high-viscosity liquid. Although glass shares some molecular properties with liquids, it is a solid at room temperature and only begins to flow at hundreds of degrees above room temperature. Old glass which is thicker at the bottom than at the top comes from the production process, not from slow flow; no such distortion is observed in other glass objects of similar or even greater age
 >
@@ -68,7 +68,7 @@ Absolutely! It's documented [here](https://sphinx-design.readthedocs.io/en/lates
 % This line is a comment and will not show up on the wiki page.
 % It's like a secret for wiki editors only.
 
-```{figure} https://cdn.discordapp.com/attachments/514888013533151253/1125231069092913153/PXL_20230703_010350269.PORTRAIT.ORIGINAL.jpg
+```{figure} https://cdn.discordapp.com/attachments/514888013533151253/1125231069092913153/PXL_20230703_010350269.PORTRAIT.ORIGINAL.jpg?ex=66a2f698&is=66a1a518&hm=a7bd6de2559e93c75336924b315173b1b77c7d9434d30d261d8f1dcf70ba1900&
     :align: right
     :figwidth: 30%
 
